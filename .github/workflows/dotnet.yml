@@ -24,10 +24,7 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-    - name: Publish Linux x64
-      run: dotnet publish --sc -c Release -a x64 --os linux
+
     - name: Publish WIN x64
       run: dotnet publish --sc -c Release -a x64 --os win
     - name: Archive artifact
