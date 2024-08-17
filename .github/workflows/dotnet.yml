@@ -31,4 +31,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: VideoRecordingJoiner_win_x64
-        path: bin/Release/net8.0/publish/win-x64/VideoRecordingJoiner.exe
+        path: bin/Release/net9.0/win-x64/publish/VideoRecordingJoiner.exe
